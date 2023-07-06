@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyla Interior</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.tailwindcss.com/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="app.js" defer></script>
+    <!-- image sliding link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+          <a href="/" class="logo"><img src="/image/logo.png" alt="" class="max"></a>
+  
+          <div class="hamburger"><i class='bx bx-menu'></i></div>
+  
+          <div class="nav__link hide">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#works">works</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+      </header>
+    <!-- <nav class="header">
+        <div class="box"><img class="logo" src="/image/logo.png" alt=""></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        
+            <ul class="lists">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        
+
+    </nav> -->
+
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Nyla <span>interior studio</span></h1>
+            <div class="text-animate">
+                <h3>Calicut-Eranakulam</h3>
+            </div>
+            <p>We value our clientele and their individual needs. We pride our selves on
+                delivering quality, providing knowledge, and achieving excellence in every
+                project we design.</p>
+
+            <div class="btn-box m-0 p-0">
+                <a href="#" class="btnone">Contact Us</a>
+                <a href="#works" class="btnone">Our Works</a>
+            </div>
+
+            <div class="home-sci ">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>our Works</span></h2>
+        <div class="about-content">
+            <!-- <h3>Nyla Interior Studio</h3> -->
+            <p>Commercial interior designs don’t necessarily need to
+                be plain and boring. While functionality needs to be
+                prioritized, a little attention to the style and aesthetic
+                elements would take your space to the next level.
+                We value our clientele and their individual needs.
+                We pride our selves on delivering quality, providing knowledge,
+                and achieving excellence in every project we design.</p>
+            <div class="btn-box-about ">
+                <button- type="read" class="btn">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+
+    <section class="work" id="works">
+        <div>
+            <div class="work-column">
+                <h3 class="work-title">Works</h3>
+            </div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/image/work-imgae/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/image/work-imgae/9 (1).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/image/work-imgae/9 (2).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/image/work-imgae/9 (4).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/image/work-imgae/9 (5).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/image/work-imgae/9 (6).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/image/work-imgae/9 (7).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/image/work-imgae/9 (8).jpg" alt=""></div>
+                <!-- <div class="swiper-slide"><img src="C:\Users\91811\Desktop\intirior\room.avif" alt=""></div> -->
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">contact <span>Us!</span></h2>
+
+        <form id="contact-form">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" id="user_name" name="user_name" placeholder="Full name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="user_email" name="user_email" placeholder="Email address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" id="user_number" name="user_number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="user_subject" name="user_subject" placeholder="Email subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea cols="30" rows="10" id="user_message" name="user_message" placeholder="Your Messege"
+                    required></textarea>
+                <span class="focus"></span>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+
+    </section>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="list">
+            <h2 class="contact-num">Nyla interior studio</h2>
+            <p class="paragraph">Commercial interior designs don’t necessarily need to
+                be plain and boring. While functionality needs to be
+                prioritized, a little attention to the style and aesthetic
+                elements would take your space to the next level.</p>
+            <ul class="social">
+                <li><a href="#" class="bx bxl-facebook-circle"></a></li>
+                <li><a href="#" class="bx bxl-instagram"></a></li>
+                <li><a href="#" class="bx bxl-twitter"></a></li>
+            </ul>
+        </div>
+        <div class="footer-botem">
+            <p>Nyla interior studio &working;2023 All kerala. desinged by <span>"Abdul Raoof"</span></p>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+    <script>
+        (function () {
+            emailjs.init('5lIh1kBsyZ3guH4sA');
+        })();
+
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                emailjs.sendForm('service_uzafneq', 'template_ua131rr', this)
+                    .then(function (response) {
+                        console.log('Success!', response.status, response.text);
+                        alert('Email sent successfully!');
+                    }, function (error) {
+                        console.log('Error:', error);
+                        alert('An error occurred while sending the email.');
+                    });
+            });
+        });
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            spaceBetween: 20,
+            loop: true,
+            fade: 'true',
+            grabCursor: 'true',
+            nav: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+
+</body>
+
+</html>
